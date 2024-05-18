@@ -1143,7 +1143,11 @@ footer{
         padding: 10px;
     }
     .home{
-        grid-gap: 0;
+/*         grid-gap: 0; */
+    }
+        .img-hero img{
+        
+        margin-top: -100px;
     }
     .fillter-buttons button{
         padding: 10px;
