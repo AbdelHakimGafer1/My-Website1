@@ -1077,6 +1077,9 @@ footer{
     .home,.portfolio-box{
         flex-direction: column-reverse;
     }
+        header{
+        width: 85%;
+    }
     .about,.contactSkills{
         flex-direction: column;
     }
