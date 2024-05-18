@@ -1156,6 +1156,9 @@ footer{
 }
 
 @media(max-width:530px){
+    header{
+        width:85%;
+    }
     html{
         font-size: 80%;
     }
