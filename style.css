@@ -286,6 +286,7 @@ section{
     width: 400px;
     height: auto;
     z-index: 10;
+    top: 71px;
 }
 
 .rotate-text{
