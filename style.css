@@ -1160,13 +1160,13 @@ footer{
 
 @media(max-width:530px){
     header{
-        width:85%;
+        width:150%;
     }
     html{
         font-size: 80%;
     }
     section{
-        padding: 50px 3%;
+        padding: 50px 1%;
     }
     .contact-info form .input-box{
         display: block;
