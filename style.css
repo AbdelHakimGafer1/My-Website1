@@ -144,15 +144,36 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 4em;
-    background: var(--gradient-white-bg2);
+/*     background: var(--gradient-white-bg2); */
 }
-
+.back-video{
+    z-index: -222222;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
+@media (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height:100%;
+    }
+}
 .hero-info{
     margin-top: 3rem;
 }
 
 .hero-info h3{
-    color: var(--font-color);
+    -webkit-text-stroke:2px rgb(255, 0, 140);
+    color: rgb(255, 0, 140);
     font-weight: 300;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -160,6 +181,17 @@ section{
 
 .hero-info h1{
     font-size: 3.5rem;
+    color:rgba(204, 0, 255, 0.74);
+    transition: .5s;
+
+}
+.hero-info h1:hover{
+    color:#ffffffff;
+    -webkit-text-stroke:4px #ffffffff
+}
+.hero-info h3:hover{
+    color:rgb(247, 0, 255);
+    -webkit-text-stroke:2px rgb(255, 0, 140)
 }
 
 .text-animate{
